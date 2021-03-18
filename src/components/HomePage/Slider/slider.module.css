@@ -1,0 +1,51 @@
+.mainDiv{
+    background-color: whitesmoke;
+    padding: 30px 200px;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.box1, .box2{
+    width: 45%;
+    color: white;
+    background-color: royalblue;
+    text-align: left;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+    .mainDiv{
+        width: 90%;
+        height: auto;
+        align-items: center;
+        margin: 0px 10px 0px 20px;
+        padding: 0px;
+    }
+    .mainBox {
+        flex-direction: column;
+        margin: 10px;
+        padding: 5px;
+        align-items: center;
+
+    }
+    .box1, .box2{
+        width: 90%;
+        margin-top: 5px;
+    }
+  }
+
+
+
+

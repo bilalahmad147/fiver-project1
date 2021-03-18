@@ -1,0 +1,36 @@
+.MainDiv{
+    max-width: 90%;
+    min-width: 10%;
+    background-color: white;
+    padding-top: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+}
+img{
+    margin: 10px;
+}
+
+.inCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.inCard p{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+  }

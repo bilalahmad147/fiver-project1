@@ -1,0 +1,19 @@
+
+.heading{
+    color: blue;
+    text-align: left;
+    
+}
+.mainDiv{
+    font-size: 12px;
+    line-height: 0.7;
+    text-align: start;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mainfooter1{
+    padding: 30px 0px 30px 0px;
+}

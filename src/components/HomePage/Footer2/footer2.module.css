@@ -1,0 +1,39 @@
+.heading{
+    color: saddlebrown;
+    text-align: left;
+    
+}
+img {
+    margin-bottom: 10px;
+}
+.settingPara{
+    line-height: 1.6 !important;
+}
+.mainDiv{
+    line-height: 0.7;
+    margin-top: 100px;
+    text-align: start;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.footermain{
+    background-color: whitesmoke;
+    padding: 20px 0px 30px 0px;
+}
+.smallBox{
+    max-width: 300px;
+
+}
+
+@media screen and (max-width: 800px) {
+    .mainDiv {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+  }

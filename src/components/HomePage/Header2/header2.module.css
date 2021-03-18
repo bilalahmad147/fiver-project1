@@ -1,0 +1,40 @@
+.menu {
+    display: inline-block;
+    font-size: 19px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.menuBar {
+    text-decoration: none;
+    color: white;
+    font-family: Open-Sans-bold;
+    font-size: 17px;
+    padding: 8px 15px;
+}
+
+.menuBar:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    height: 50px;
+    background-color: blue;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        visibility: hidden;
+        height: 0px;
+    }
+  }
